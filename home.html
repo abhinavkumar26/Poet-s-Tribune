@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"></style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel">
+    
+    <title>Welcome to Poet's Tribune</title>
+</head>
+<body oncontextmenu="return false">
+    <div class="header">
+        <div class="unselectable style", style="flex:6;margin-left:2vw;margin-top: 0.5vh; font-family: Cinzel, serif;font-size: x-large;">Poet's Tribune</div>
+        <button style="margin-right: 2vw;">A Letter</button>
+    </div>
+    <hr style="margin-bottom:2vh">
+    <macro-carousel loop navigation pagination>
+        <article class="slide"><img draggable="false" ondragstart="return false;" src="Banner.png" alt=""></article>
+        <article class="slide"><img draggable="false" ondragstart="return false;" src="Banner1.png" alt=""></article>
+        <article class="slide"><img draggable="false" ondragstart="return false;" src="Banner2.png" alt=""></article>
+      </macro-carousel>
+    <div style="padding-top:5vh;padding-left: 2vw; font-size: 1.5rem; margin-bottom: 5vh;">Poems</div>
+  
+    <macro-carousel id = "poem" loop navigation pagination slides-per-view="4">
+        <article class="slide" ><img onclick="shpo('1')"class="img"draggable="false" ondragstart="return false;" src="poem images/close your.png" alt=""></article>
+        <article class="slide" onclick="shpo('3')"><img class="img"draggable="false" ondragstart="return false;" src="poem images/thecolor.png" alt=""></article>
+        <article class="slide" onclick="shpo('9')"><img class="img"draggable="false" ondragstart="return false;" src="poem images/you.png" alt=""></article>
+        <article class="slide" onclick="shpo('2')"><img class="img"draggable="false" ondragstart="return false;" src="poem images/Remains.png" alt=""></article>
+        <article class="slide" onclick="shpo('5')"><img class="img"draggable="false" ondragstart="return false;" src="poem images/wolf.png" alt=""></article>
+        <article class="slide" onclick="shpo('8')"><img class="img"draggable="false" ondragstart="return false;" src="poem images/All I.png" alt=""></article>
+        <article class="slide" onclick="shpo('6')"><img class="img"draggable="false" ondragstart="return false;" src="poem images/To find.png" alt=""></article>
+        <article class="slide" onclick="shpo('4')"><img class="img"draggable="false" ondragstart="return false;" src="poem images/Those.png" alt=""></article>
+        <article class="slide" onclick="shpo('10')"><img class="img"draggable="false" ondragstart="return false;" src="poem images/hope.png" alt=""></article>
+        <article class="slide" onclick="shpo('7')"><img class="img"draggable="false" ondragstart="return false;" src="poem images/aff.png" alt=""></article>
+      </macro-carousel>
+
+    <footer style="display: flex;padding:5%;padding-bottom: 10vh; color: #c2c2c2;font-size: medium;background: #313131;">
+      <img src="PT.png" style="all:unset; width: 8vw; height: 8vw;">
+      <div style="margin-left: 1vw;">
+        <div style="font-size: 2vw;">Poet's Tribune</div>
+      <div style="margin-top: 1%;font-size: small;font-family: sans-serif;padding-bottom: 10%;"><a style="color: #c2c2c2;" href="mailto:contact@poetstribune.com"><span >contact@poetstribune.com</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+        <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+        <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+      </svg></a></div></div>
+    </footer>
+    
+    <script src="macro-carousel.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

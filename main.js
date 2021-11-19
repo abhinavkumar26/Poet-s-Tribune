@@ -13,6 +13,10 @@ let poems = {
     "4":"https://poettribune.blogspot.com/2021/11/blog-post.html",
     "5":"https://poettribune.blogspot.com/2021/11/two-wolves-theres-darkness-in-me.html",
     "6":"https://poettribune.blogspot.com/2021/11/to-find-another-to-find-another-is-mere.html",
+    "7":"https://poettribune.blogspot.com/2021/11/a-forgotten-friend-with-tearful-eyes-i.html",
+    "8":"https://poettribune.blogspot.com/2021/11/all-i-can-see-i-look-at-body-before-me.html",
+    "9":"https://poettribune.blogspot.com/2021/11/you-you.html",
+    "10":"https://poettribune.blogspot.com/2021/11/hope-in-dark-dingy-corner-of-her-hut.html"
 };
 
 function home(){
